@@ -1,0 +1,33 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+
+# BentoML
+.bentoml/
+bentos/
+
+# Modelos treinados localmente
+models/*.joblib
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Sistema operacional e editores
+.DS_Store
+.vscode/
+.idea/

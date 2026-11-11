@@ -1,0 +1,9 @@
+# Ambiente do projeto Customer Churn Prediction
+bentoml==1.4.40
+scikit-learn==1.9.1
+pandas==3.1.1
+numpy==2.4.6
+joblib==1.6.0
+matplotlib==3.11.2
+streamlit==1.67.0
+requests==2.34.2

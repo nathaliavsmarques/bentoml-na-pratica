@@ -1,0 +1,16 @@
+service: "src.service:ChurnService"
+
+description: "Demonstração do BentoML para empacotamento e disponibilização de modelos de Machine Learning."
+
+include:
+  - "src/"
+
+models:
+  - "churn_pipeline:iqpnzng572bm2aav"
+
+python:
+  packages:
+    - "scikit-learn==1.9.1"
+    - "pandas==3.1.1"
+    - "numpy==2.4.6"
+    - "joblib==1.6.0"
