@@ -133,8 +133,8 @@ Pré-requisitos:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd bentoml-churn
+git clone https://github.com/nathaliavsmarques/bentoml-na-pratica.git
+cd bentoml-na-pratica
 ```
 
 Crie e ative o ambiente Conda:
